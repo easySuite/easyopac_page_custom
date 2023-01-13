@@ -1,0 +1,6 @@
+name = easyOpac Custom page
+description = Provides ability to show a page decoupled from main site universe.
+package = easyOpac
+version = 7.x-6.5.0
+core = 7.x
+configure = admin/config/easyopac/page-custom

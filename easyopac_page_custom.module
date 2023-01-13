@@ -1,0 +1,34 @@
+<?php
+
+/**
+ * Implements hook_menu().
+ */
+function easyopac_page_custom_menu() {
+  $menu = [];
+
+  $menu['easyopac/page/custom'] = [
+    'page callback' => 'easyopac_page_custom_ballback',
+    'page arguments' => array(),
+    'access arguments' => array('access content'),
+    'type' => MENU_CALLBACK,
+  ];
+
+  $menu['admin/config/content/page_custom'] = [
+    'title' => 'Custom page',
+    'description' => 'Provide markup for a custom page, decoupled from site universe.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('easyopac_page_custom_admin_form'),
+    'access arguments' => array('access administration pages'),
+    'file' => 'easyopac_page_custom.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  ];
+
+  return $menu;
+}
+
+function easyopac_page_custom_ballback() {
+  $output = variable_get('easyopac_page_custom_markup');
+  echo !empty($output) ? base64_decode($output) : '';
+
+  drupal_exit();
+}
