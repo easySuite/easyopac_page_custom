@@ -49,10 +49,12 @@ function easyopac_page_custom_admin_form(array $form, array &$form_state): array
 function easyopac_page_custom_admin_form_submit(array $form, array &$form_state): void {
   form_state_values_clean($form_state);
 
-  $values = $form_state['values'];
-  if (!empty($values['easyopac_page_custom_markup'])) {
-    variable_set('easyopac_page_custom_markup', base64_encode($values['easyopac_page_custom_markup']));
+  $markup = $form_state['values']['easyopac_page_custom_markup'] ?? '';
+  if (!empty($markup) || $markup === '0') {
+    $markup = base64_encode($markup);
   }
+
+  variable_set('easyopac_page_custom_markup', $markup);
 
   drupal_set_message(t('The configuration options have been saved.'));
 }
