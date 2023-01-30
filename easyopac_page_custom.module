@@ -12,10 +12,10 @@ function easyopac_page_custom_menu() {
   $menu = [];
 
   $menu['easyopac/page/custom'] = [
+    'title' => "Registration for the library's newsletter",
     'page callback' => 'easyopac_page_custom_ballback',
     'page arguments' => array(),
     'access arguments' => array('access content'),
-    'type' => MENU_CALLBACK,
   ];
 
   return $menu;

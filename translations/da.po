@@ -1,0 +1,37 @@
+# $Id$
+#
+# Danish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  easyopac_page_custom.module: n/a
+#  templates/eo_page_custom.tpl.php: n/a
+#  easyopac_page_custom.info: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2023-01-30 13:24+0100\n"
+"PO-Revision-Date: 2023-01-30 13:24+0100\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Danish <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: easyopac_page_custom.module:15 templates/eo_page_custom.tpl.php:9
+msgid "Registration for the library's newsletter"
+msgstr "Tilmelding til bibliotekets nyhedsbrev"
+
+#: easyopac_page_custom.info:0
+msgid "easyOpac custom newsletter signup"
+msgstr ""
+
+#: easyopac_page_custom.info:0
+msgid "Exposes a page with custom newsletter signup form."
+msgstr ""
+
+#: easyopac_page_custom.info:0
+msgid "easyOpac"
+msgstr ""

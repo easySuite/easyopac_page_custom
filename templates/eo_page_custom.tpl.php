@@ -6,6 +6,7 @@
  */
 ?>
 
+<h1><?php print t("Registration for the library's newsletter"); ?></h1>
 <div class="container2">
   <table border="0" cellpadding="2" class="myForm">
     <tbody>
@@ -29,11 +30,11 @@
             <tr>
               <td><label class="container" for="CustomFields[243985_6447]_B&oslash;rnekulturformidling">
                   <input type="checkbox" id="CustomFields[243985_6447]_B&oslash;rnekulturformidling" name="CustomFields[243985][]" value="B&oslash;rnekulturformidling">
-                  <span class="checkmark"></span>B&oslash;rnekulturformidling</label>
+                  <span class="checkmark"></span>B&oslash;Indhold til børnefamilier</label>
                 <br />
                 <label class="container" for="CustomFields[243985_6447]_Voksenkulturformidling">
                   <input type="checkbox" id="CustomFields[243985_6447]_Voksenkulturformidling" name="CustomFields[243985][]" value="Voksenkulturformidling">
-                  <span class="checkmark"></span>Voksenkulturformidling</label></td>
+                  <span class="checkmark"></span>Indhold til voksne</label></td>
             </tr>
             <tr style="display: none;">
               <td>&nbsp;&nbsp;&nbsp;&nbsp;First Name:</td>
