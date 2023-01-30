@@ -30,7 +30,7 @@
             <tr>
               <td><label class="container" for="CustomFields[243985_6447]_B&oslash;rnekulturformidling">
                   <input type="checkbox" id="CustomFields[243985_6447]_B&oslash;rnekulturformidling" name="CustomFields[243985][]" value="B&oslash;rnekulturformidling">
-                  <span class="checkmark"></span>B&oslash;Indhold til børnefamilier</label>
+                  <span class="checkmark"></span>Indhold til børnefamilier</label>
                 <br />
                 <label class="container" for="CustomFields[243985_6447]_Voksenkulturformidling">
                   <input type="checkbox" id="CustomFields[243985_6447]_Voksenkulturformidling" name="CustomFields[243985][]" value="Voksenkulturformidling">
