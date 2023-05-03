@@ -15,7 +15,7 @@
           <table>
             <tbody>
             <tr>
-              <td class="mptext" style="padding-top:20px;">&nbsp;E-mail:</td>
+              <td class="mptext" style="padding-top:20px;"><span class="required">*</span>&nbsp;E-mail:</td>
             </tr>
             <tr>
               <td><input type="text" name="email" class="mpinput"></td>
@@ -23,25 +23,32 @@
             <tr>
               <td class="mptext">&nbsp;Fornavn:</td></tr>
             <tr>
-              <td><input type="text" class="form-control mpinput" name="CustomFields[2]" id="CustomFields_2_6447" value=""></td>
+              <td><input type="text" class="form-control mpinput" name="CustomFields[2]" id="CustomFields_2_6447" value="" maxlength="50"></td>
             </tr>
             <tr>
               <td class="mptext" style="padding-bottom:20px;">&nbsp;Nyhedsbrev:</td></tr>
             <tr>
-              <td><label class="container" for="CustomFields[243985_6447]_B&oslash;rnekulturformidling">
+              <td>
+                <label class="container" for="CustomFields[243985_6447]_B&oslash;rnekulturformidling">
                   <input type="checkbox" id="CustomFields[243985_6447]_B&oslash;rnekulturformidling" name="CustomFields[243985][]" value="B&oslash;rnekulturformidling">
-                  <span class="checkmark"></span>Indhold til børnefamilier</label>
+                  <span class="checkmark"></span>B&oslash;rnekulturformidling
+                </label>
                 <br />
                 <label class="container" for="CustomFields[243985_6447]_Voksenkulturformidling">
                   <input type="checkbox" id="CustomFields[243985_6447]_Voksenkulturformidling" name="CustomFields[243985][]" value="Voksenkulturformidling">
-                  <span class="checkmark"></span>Indhold til voksne</label></td>
+                  <span class="checkmark"></span>Voksenkulturformidling
+                </label>
+              </td>
             </tr>
             <tr style="display: none;">
               <td>&nbsp;&nbsp;&nbsp;&nbsp;First Name:</td>
               <td><input type="text" class="form-control" name="first_name_mp" id="first_name_mp" /></td>
             </tr>
             <tr>
-              <td><input type="submit" value="TILMELD" class="mpbutton"></td>
+              <td>For at forbedre modtagerens oplevelser anvender vi Tracking Pixels til at se statistikker over åbningsrater og interaktioner i vores kampagner. Ved tilmelding til nyhedsbrevet accepterer du derved brugen af Tracking Pixels.</td>
+            </tr>
+            <tr>
+              <td><input type="submit" value="Tilmeld" class="mpbutton"></td>
             </tr>
             </tbody>
           </table>
